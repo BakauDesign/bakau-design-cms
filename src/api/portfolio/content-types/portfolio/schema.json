@@ -1,0 +1,53 @@
+{
+  "kind": "collectionType",
+  "collectionName": "portfolios",
+  "info": {
+    "singularName": "portfolio",
+    "pluralName": "portfolios",
+    "displayName": "Portfolio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nama": {
+      "type": "string",
+      "required": true,
+      "unique": false
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "jenis": {
+      "type": "enumeration",
+      "required": true,
+      "default": "online",
+      "enum": [
+        "online",
+        "design only"
+      ]
+    },
+    "url": {
+      "type": "string",
+      "required": false
+    },
+    "penanda": {
+      "type": "string",
+      "default": "cth: Web Design, Website Development"
+    },
+    "is_active": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  }
+}

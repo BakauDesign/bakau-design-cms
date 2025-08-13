@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "assets",
+  "info": {
+    "singularName": "asset",
+    "pluralName": "assets",
+    "displayName": "Asset"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "judul": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "deskripsi": {
+      "type": "text",
+      "required": true
+    },
+    "thumbnail": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "harga": {
+      "type": "integer",
+      "required": true,
+      "default": 10
+    },
+    "penanda": {
+      "type": "string",
+      "default": "cth: UI Design Kit, Website Template",
+      "required": false
+    },
+    "galeri": {
+      "type": "media",
+      "multiple": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "link_pembelian": {
+      "type": "string"
+    },
+    "kompatibel": {
+      "type": "string"
+    },
+    "lisensi": {
+      "type": "string"
+    },
+    "rilis": {
+      "type": "date"
+    },
+    "pembuat": {
+      "type": "string",
+      "required": true
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "judul",
+      "required": true
+    },
+    "is_active": {
+      "type": "boolean",
+      "required": true,
+      "default": true
+    }
+  }
+}
