@@ -8,7 +8,7 @@ export interface BlocksCta extends Struct.ComponentSchema {
   };
   attributes: {
     judul: Schema.Attribute.String;
-    link: Schema.Attribute.String;
+    link: Schema.Attribute.Text;
   };
 }
 

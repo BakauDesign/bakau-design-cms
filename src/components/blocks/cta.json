@@ -10,7 +10,7 @@
       "type": "string"
     },
     "link": {
-      "type": "string"
+      "type": "text"
     }
   },
   "config": {}
