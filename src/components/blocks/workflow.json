@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_blocks_workflows",
+  "info": {
+    "displayName": "Alur Kerja",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "nomor": {
+      "type": "integer"
+    },
+    "nama": {
+      "type": "string"
+    },
+    "deskripsi": {
+      "type": "text"
+    },
+    "penanda": {
+      "type": "component",
+      "component": "blocks.tag",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

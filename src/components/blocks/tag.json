@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_blocks_tags",
+  "info": {
+    "displayName": "Penanda",
+    "icon": "bold"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

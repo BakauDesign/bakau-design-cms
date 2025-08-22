@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_our_services",
+  "info": {
+    "displayName": "Layanan Kami",
+    "icon": "apps"
+  },
+  "options": {},
+  "attributes": {
+    "konten": {
+      "type": "component",
+      "component": "blocks.section",
+      "repeatable": false
+    },
+    "daftar_layanan": {
+      "type": "component",
+      "component": "blocks.service",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

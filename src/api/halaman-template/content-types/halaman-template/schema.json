@@ -1,0 +1,49 @@
+{
+  "kind": "singleType",
+  "collectionName": "halaman_templates",
+  "info": {
+    "singularName": "halaman-template",
+    "pluralName": "halaman-templates",
+    "displayName": "Halaman Template"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "hero": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.section",
+      "repeatable": false
+    },
+    "daftar_template": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.section",
+      "repeatable": false
+    },
+    "cta": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.cta",
+      "repeatable": false
+    }
+  }
+}

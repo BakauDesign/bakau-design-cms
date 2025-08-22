@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_workflows",
+  "info": {
+    "displayName": "Alur Kerja Kami",
+    "icon": "bulletList"
+  },
+  "options": {},
+  "attributes": {
+    "konten": {
+      "type": "component",
+      "component": "blocks.section",
+      "repeatable": false
+    },
+    "daftar_alur_kerja": {
+      "type": "component",
+      "component": "blocks.workflow",
+      "repeatable": true
+    }
+  },
+  "config": {}
+}

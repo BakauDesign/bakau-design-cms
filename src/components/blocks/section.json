@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_blocks_sections",
+  "info": {
+    "displayName": "Konten",
+    "icon": "picture"
+  },
+  "options": {},
+  "attributes": {
+    "judul": {
+      "type": "string"
+    },
+    "judul_pendukung": {
+      "type": "string"
+    }
+  },
+  "config": {}
+}

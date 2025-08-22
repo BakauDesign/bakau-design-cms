@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "halaman_tentang_kamis",
+  "info": {
+    "singularName": "halaman-tentang-kami",
+    "pluralName": "halaman-tentang-kamis",
+    "displayName": "Halaman Tentang Kami"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "tentang_kami": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.about-us",
+      "repeatable": false
+    },
+    "alur_kerja_kami": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "sections.workflow",
+      "repeatable": false
+    },
+    "faq": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.section",
+      "repeatable": false
+    },
+    "cta": {
+      "type": "component",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "blocks.cta",
+      "repeatable": false
+    }
+  }
+}

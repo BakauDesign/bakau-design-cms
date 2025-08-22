@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_sections_about_uses",
+  "info": {
+    "displayName": "Tentang Kami",
+    "icon": "file"
+  },
+  "options": {},
+  "attributes": {
+    "konten": {
+      "type": "component",
+      "component": "blocks.section",
+      "repeatable": false
+    },
+    "visi_dan_misi": {
+      "type": "component",
+      "component": "blocks.vision-and-mission",
+      "repeatable": false
+    }
+  },
+  "config": {}
+}

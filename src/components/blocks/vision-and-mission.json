@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_blocks_vision_and_missions",
+  "info": {
+    "displayName": "Visi dan Misi",
+    "icon": "quote"
+  },
+  "options": {},
+  "attributes": {
+    "label_visi": {
+      "type": "string"
+    },
+    "konten_visi": {
+      "type": "text"
+    },
+    "label_misi": {
+      "type": "string"
+    },
+    "konten_misi": {
+      "type": "text"
+    }
+  },
+  "config": {}
+}

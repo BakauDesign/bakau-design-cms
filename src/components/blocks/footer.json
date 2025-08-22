@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_blocks_footers",
+  "info": {
+    "displayName": "Footer",
+    "icon": "puzzle"
+  },
+  "options": {},
+  "attributes": {
+    "logo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "deskripsi": {
+      "type": "string",
+      "required": true
+    },
+    "hak_cipta": {
+      "type": "string",
+      "required": true
+    },
+    "menu": {
+      "type": "component",
+      "component": "navigations.menu-footer",
+      "repeatable": true,
+      "required": true
+    }
+  },
+  "config": {}
+}

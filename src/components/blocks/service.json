@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_blocks_services",
+  "info": {
+    "displayName": "Layanan",
+    "icon": "stack"
+  },
+  "options": {},
+  "attributes": {
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "nama": {
+      "type": "string",
+      "required": true
+    },
+    "deskripsi": {
+      "type": "text",
+      "required": true
+    }
+  },
+  "config": {}
+}
